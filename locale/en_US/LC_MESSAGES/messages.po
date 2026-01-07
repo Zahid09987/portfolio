@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-07 17:41+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: about.php:7
+msgid "About Zahid"
+msgstr ""
+
+#: about.php:10
+msgid "Skills"
+msgstr ""
+
+#: contact.php:7
+msgid "Contact Zahid"
+msgstr ""
+
+#: contact.php:11
+msgid "Name"
+msgstr ""
+
+#: contact.php:15
+msgid "Email address"
+msgstr ""
+
+#: contact.php:19
+msgid "Message"
+msgstr ""
+
+#: contact.php:22
+msgid "Send Message"
+msgstr ""
+
+#: index.php:8
+msgid "This is where Zahid is showing his skills."
+msgstr ""
+
+#: index.php:9
+msgid "View Projects"
+msgstr ""
+
+#: portfolio.php:5
+msgid "Zahid's Projects"
+msgstr ""
+
+#: portfolio.php:12
+msgid "E-Commerce Website"
+msgstr ""
+
+#: portfolio.php:13
+msgid "A full-stack shopping cart application built with PHP."
+msgstr ""
+
+#: portfolio.php:14 portfolio.php:24 portfolio.php:34
+msgid "View Code"
+msgstr ""
+
+#: portfolio.php:22
+msgid "Blog System"
+msgstr ""
+
+#: portfolio.php:23
+msgid "A content management system with admin panel."
+msgstr ""
+
+#: portfolio.php:32
+msgid "Task Manager"
+msgstr ""
+
+#: portfolio.php:33
+msgid "A JavaScript and PHP based To-Do list application."
+msgstr ""
+
+#: include/header.php:8 include/navbar.php:7
+msgid "Zahid's Portfolio"
+msgstr ""
+
+#: include/navbar.php:16
+msgid "Home"
+msgstr ""
+
+#: include/navbar.php:21
+msgid "About"
+msgstr ""
+
+#: include/navbar.php:26
+msgid "Projects"
+msgstr ""
+
+#: include/navbar.php:31
+msgid "Contact"
+msgstr ""
+
+#: include/navbar.php:35
+msgid "Language"
+msgstr ""
+
+#: include/navbar.php:54
+msgid "Toggle theme"
+msgstr ""
+
+#: include/navbar.php:62
+msgid "Light"
+msgstr ""
+
+#: include/navbar.php:73
+msgid "Dark"
+msgstr ""
+
+#: include/navbar.php:84
+msgid "System"
+msgstr ""
