@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "Source Sans 3";
+  src: url("./font/SourceSans3VF-Upright.otf.woff2") format("woff2"),
+    url("./font/SourceSans3VF-Italic.otf.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Source Serif 4";
+  src: url("./font/SourceSerif4Variable-Roman.otf.woff2") format("woff2"),
+    url("./font/SourceSerif4Variable-Italic.otf.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Source Code Pro";
+  src: url("./font/SourceCodeVF-Upright.otf.woff2") format("woff2"),
+    url("./font/SourceCodeVF-Italic.otf.woff2") format("woff2");
+}
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: "Source Sans 3";
+}
+
+h1,
+h2,
+h4 {
+  font-family: "Source Serif 4";
+}
+
+.btn-link {
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  text-decoration: none;
+}
+
+#bd-theme {
+  color: var(--bs-emphasis-color);
+}
+
+#bd-theme svg {
+  fill: currentColor;
+}
+
+[data-bs-theme="dark"] #bd-theme {
+  color: #fff;
+}
+
+[data-bs-theme="dark"] #bd-theme:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+[data-bs-theme="light"] #bd-theme {
+  color: #212529;
+}
+
+[data-bs-theme="light"] #bd-theme:hover {
+  color: rgba(33, 37, 41, 0.7);
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.dropdown-menu {
+  border-radius: 8px;
+}
+
+[data-bs-theme="dark"] .dropdown-menu {
+  background-color: #2b3035;
+  border-color: #495057;
+}
+
+[data-bs-theme="dark"] .dropdown-item {
+  color: #fff;
+}
+
+[data-bs-theme="dark"] .dropdown-item:hover,
+[data-bs-theme="dark"] .dropdown-item:focus {
+  background-color: #3d4349;
+  color: #fff;
+}
+
+[data-bs-theme="dark"] .dropdown-item.active {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+[data-bs-theme="dark"] .dropdown-item svg {
+  fill: #fff;
+}
+
+[data-bs-theme="light"] .dropdown-item svg {
+  fill: #212529;
+}
+
+.dropdown-item.active svg.bi.ms-auto {
+  display: inline !important;
+}
+
+.navbar {
+  transition: background-color 0.3s ease;
+}
