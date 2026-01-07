@@ -10,12 +10,22 @@ if (isset($_GET['lang'])) {
     $lang = 'en_US';
 }
 
-$lang_code = $lang;
+$lang_file = __DIR__ . "../locale/" . $lang . ".json";
 
-putenv("LC_ALL=$lang_code");
-setlocale(LC_ALL, $lang_code);
+if (!file_exists($lang_file)) {
+    $lang_file = __DIR__ . "../locale/en_US.json";
+}
 
-bindtextdomain("messages", "./locale");
-bind_textdomain_codeset("messages", "UTF-8");
+$json_content = file_get_contents($lang_file);
+$translations = json_decode($json_content, true);
 
-textdomain("messages");
+function t($key)
+{
+    global $translations;
+
+    if (isset($translations[$key])) {
+        return $translations[$key];
+    } else {
+        return "[$key]";
+    }
+}

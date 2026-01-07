@@ -4,7 +4,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary mb-4">
     <div class="container">
-        <a class="navbar-brand" href="index.php"><?php echo gettext("Zahid's Portfolio"); ?></a>
+        <a class="navbar-brand" href="index.php"><?php echo t('nav_brand'); ?></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -13,26 +13,26 @@ $current_page = basename($_SERVER['PHP_SELF']);
                 <li class="nav-item">
                     <a class="nav-link <?php if ($current_page == 'index.php') {
                                             echo 'active';
-                                        } ?>" href="index.php"><?php echo gettext("Home"); ?></a>
+                                        } ?>" href="index.php"><?php echo t('nav_home'); ?></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link <?php if ($current_page == 'about.php') {
                                             echo 'active';
-                                        } ?>" href="about.php"><?php echo gettext("About"); ?></a>
+                                        } ?>" href="about.php"><?php echo t('nav_about'); ?></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link <?php if ($current_page == 'portfolio.php') {
                                             echo 'active';
-                                        } ?>" href="portfolio.php"><?php echo gettext("Projects"); ?></a>
+                                        } ?>" href="portfolio.php"><?php echo t('nav_projects'); ?></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link <?php if ($current_page == 'contact.php') {
                                             echo 'active';
-                                        } ?>" href="contact.php"><?php echo gettext("Contact"); ?></a>
+                                        } ?>" href="contact.php"><?php echo t('nav_contact'); ?></a>
                 </li>
                 <li class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">
-                        <?php echo gettext("Language"); ?>
+                        <?php echo t('nav_language'); ?>
                     </a>
                     <ul class="dropdown-menu">
                         <li><a href="?lang=en_US" class="dropdown-item">English (United States)</a></li>
@@ -51,7 +51,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                         <svg class="bi my-1 theme-icon-active" width="1em" height="1em">
                             <use href="#moon"></use>
                         </svg>
-                        <span class="d-lg-none ms-2" id="bd-theme-text"><?php echo gettext("Toggle theme"); ?></span>
+                        <span class="d-lg-none ms-2" id="bd-theme-text"><?php echo t('nav_toggle_theme'); ?></span>
                     </button>
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme">
                         <li>
@@ -59,7 +59,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                                 <svg class="bi me-2 opacity-50" width="1em" height="1em">
                                     <use href="#sun"></use>
                                 </svg>
-                                <?php echo gettext("Light"); ?>
+                                <?php echo t('nav_light'); ?>
                                 <svg class="bi ms-auto d-none" width="1em" height="1em">
                                     <use href="#check"></use>
                                 </svg>
@@ -70,7 +70,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                                 <svg class="bi me-2 opacity-50" width="1em" height="1em">
                                     <use href="#moon"></use>
                                 </svg>
-                                <?php echo gettext("Dark"); ?>
+                                <?php echo t('nav_dark'); ?>
                                 <svg class="bi ms-auto d-none" width="1em" height="1em">
                                     <use href="#check"></use>
                                 </svg>
@@ -81,7 +81,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                                 <svg class="bi me-2 opacity-50" width="1em" height="1em">
                                     <use href="#circle-half"></use>
                                 </svg>
-                                <?php echo gettext("System"); ?>
+                                <?php echo t('nav_system'); ?>
                                 <svg class="bi ms-auto d-none" width="1em" height="1em">
                                     <use href="#check"></use>
                                 </svg>
